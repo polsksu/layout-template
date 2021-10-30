@@ -259,70 +259,71 @@ header {
     text-decoration: none;
 }
 
-.high-dev-standarts {
+.wrapper_background-color-F6F6F8 {
     background-color: #F6F6F8;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20vh;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding: 100px 405px 50px 405px;
 }
 
-.high-dev-standarts__upper-block {
+.high-dev-standards {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 100px 20px 50px;
+}
+
+.high-dev-standards__upper-block {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 90px;
 }
 
-.high-dev-standarts__upper-block__text-block {
+.hds-upper-block__text-block {
     margin-top: 52px;
     margin-right: 123px;
 }
 
-.high-dev-standarts__upper-block__text-block__title {
+.hds-upper-text-block__title {
     margin-bottom: 40px;
 }
 
-.high-dev-standarts__upper-block__text-block__text {
+.hds-upper-text-block__text {
     margin-bottom: 30px;
 }
 
-.high-dev-standarts__upper-block__text-block__link {
+.hds-upper-text-block__link {
 }
 
-.high-dev-standarts__lower-block {
+.high-dev-standards__lower-block {
     margin-top: 70px;
     display: flex;
     flex-direction: row;
 }
 
-.high-dev-standarts__lower-block__project-block {
+.hds-lower-block__project-block {
     display: flex;
     flex-direction: column;
     padding-inline: 50px;
     flex: 1;
 }
 
-.high-dev-standarts__lower-block__project-block__picture-title-block {
+.hds-lower-project-block__picture-title-block {
     display: flex;
     flex-direction: row;
 }
 
-.high-dev-standarts__lower-block__project-block__picture-title-block__picture {
+.hds-picture-title-block__picture {
     margin: auto;
     width: 30px;
     height: 30px;
 }
 
-.high-dev-standarts__lower-block__project-block__picture-title-block__title {
+.hds-picture-title-block__title {
     margin: auto;
     font-size: 36px;
     font-weight: 400;
 }
 
-.high-dev-standarts__lower-block__project-block__text {
+.hds-lower-project-block__text {
     text-align: center;
     padding-top: 14px;
     color: grey;
