@@ -59,7 +59,9 @@
 
         feedbackOpenButton$
             .addEventListener('click', () => {
-                hamburger$.click();
+                if (window.outerWidth <= 998) {
+                    hamburger$.click();
+                }
                 feedbackFormInner$.style.animation = null;
                 feedbackForm$.style.display = 'block';
                 formsBackground$.style.display = 'block';

@@ -144,7 +144,10 @@ header .wrapper {
 }
 
 .h-nav__feedback {
-    display: none;
+    position: absolute;
+    top: -14px;
+    float: left;
+    left: -86%;
 }
 
 .header__border {
@@ -673,7 +676,7 @@ footer {
     flex-direction: column;
     text-align: center;
     background-color: white;
-    padding: 40px 10px;
+    padding: 40px 50px;
     border-radius: 30px;
 }
 
@@ -702,7 +705,7 @@ footer {
 }
 
 .feedback-form__input {
-    margin: 10px 10px;
+    margin: 10px 30px;
 }
 
 .feedback-form__input_name {
@@ -710,7 +713,7 @@ footer {
 }
 
 .feedback-form__input_phone-number {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .feedback-form__send-button {
@@ -718,7 +721,8 @@ footer {
 }
 
 .form__send-button {
-    margin: 0 40px;
+    margin: 0 auto;
+    max-width: 250px;
 }
 
 .form__close-button {
@@ -921,6 +925,8 @@ footer {
         text-align: center;
         display: block;
         position: absolute;
+        top: auto;
+        float: none;
         bottom: 30px;
         left: 50%;
         transform: translateX(-50%);
@@ -1209,6 +1215,18 @@ footer {
 
     .footer-main-page {
         display: none;
+    }
+
+    .form__inner {
+        padding: 40px 10px;
+    }
+
+    .feedback-form__input {
+        margin: 10px 15px;
+    }
+
+    .feedback-form__input_phone-number {
+        margin-bottom: 30px;
     }
 }
 
